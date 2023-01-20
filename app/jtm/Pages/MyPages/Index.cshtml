@@ -1,0 +1,33 @@
+﻿@page
+@model jtm.Pages.MyPages.IndexModel
+@{
+    ViewData["Title"] = "jtm - music!";
+}
+@section AddToHead{
+    <link href="@Url.Content("~/css/index-style.css")" rel="stylesheet" type="text/css" />
+}
+
+<div class="background-img">
+    <div class="content">
+        <nav>
+            <a asp-page-handler="Logout">
+                <figure>
+                    <img src="../images/box-arrow-left.svg" alt="Logout" class="logout-button">
+                    <figcaption>Logout</figcaption>
+                </figure>
+            </a>
+            <a asp-page-handler="UserProfile">
+                <figure>
+                    <img src="../images/person-fill.svg" alt="Your Profile" class="profile-button">
+                    <figcaption>@Model.userProfile</figcaption>
+                </figure>
+            </a>
+            <a asp-page-handler="Back" class="jtm-title">jtm - music!</a>
+        </nav>
+        <a asp-page-handler="StartGame">
+            <div class="start-game">
+                <p class="start-game-btn">Start Game</p>
+            </div>
+        </a>
+    </div>
+</div>

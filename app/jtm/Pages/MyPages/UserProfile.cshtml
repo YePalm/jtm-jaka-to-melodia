@@ -1,0 +1,27 @@
+﻿@page
+@model jtm.Pages.MyPages.UserProfileModel
+@{
+    ViewData["Title"] = "jtm - user profile!";
+}
+@section AddToHead{
+    <link href="@Url.Content("~/css/UserProfile.css")" rel="stylesheet" type="text/css" />
+}
+
+<div class="background-img">
+    <div class="content">
+        <nav>
+            <a asp-page-handler="Back" class="jtm-title">jtm - music!</a>
+            <a asp-page-handler="Logout">
+                <figure>
+                    <img src="../images/box-arrow-left.svg" alt="Logout" class="logout-button">
+                    <figcaption>Logout</figcaption>
+                </figure>
+            </a>
+        </nav>
+        <p class="UserProfile"><b>@Model.userProfile</b></p>
+        <p class="profiles-properties">Game played: </p>
+        <p class="profiles-properties">Average score (good answers/points): </p>
+        <p class="profiles-properties">Shortest game time: </p>
+        <p class="profiles-properties">Average game time: </p>
+    </div>
+</div>

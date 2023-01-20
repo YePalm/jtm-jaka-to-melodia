@@ -1,0 +1,103 @@
+﻿body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.background-img {
+    background-image: url(../images/background.png);
+    width: 100%;
+    height: 1080px;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 40px;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 800px;
+    border-radius: 20px;
+    background-color: #F2C572;
+    text-align: center;
+    padding-top: 40px;
+    box-shadow: 30px 20px 60px -20px;
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+    background-color: #070626;
+}
+
+a {
+    text-decoration: none;
+}
+
+figure {
+    display: flex;
+    align-items: center;
+    float: right;
+    height: 80px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+figcaption {
+    color: #F2C572;
+    font-family: "Comic Sans MS";
+    font-size: 25px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.logout-button {
+    width: 50px;
+    height: 50px;
+}
+
+.profile-button {
+    width: 50px;
+    height: 50px;
+}
+
+.jtm-title {
+    display: block;
+    height: 80px;
+    color: #F2C572;
+    font-family: "Comic Sans MS";
+    font-size: 30px;
+    padding-top: 15px;
+    margin-left: 12%;
+    float: left;
+    text-decoration: none !important;
+}
+
+    .jtm-title:hover {
+        color: #F2C572;
+    }
+
+.start-game {
+    background-color: #070626;
+    width: 20%;
+    height: 90px;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 220px;
+}
+
+    .start-game:hover {
+        background-color: #141242
+    }
+
+.start-game-btn {
+    display: block;
+    color: #F2C572;
+    font-family: "Comic Sans MS";
+    font-size: 45px;
+    padding-top: 7px;
+}
+
+    .start-game-btn:hover {
+        color: #F2C572;
+    }

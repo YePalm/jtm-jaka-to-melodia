@@ -1,0 +1,28 @@
+﻿@page
+@model jtm.Pages.MyPages.gameModel
+@{
+    ViewData["Title"] = "jtm - game!";
+}
+@section AddToHead{
+    <link href="@Url.Content("~/css/game.css")" rel="stylesheet" type="text/css" />
+}
+
+<div class="background-img">
+    <div class="content">
+        <nav>
+            <p class="jtm-textnav">jtm - music!</p>
+        </nav>
+        <p class="gues-music-txt"><b>Guess the music!</b></p>
+        <audio controls class="audio">
+            <source src="/Mp3/Creep (feat.mp3" type="audio/mpeg">
+        </audio>
+        <form action="POST">
+            <input type="text" class="form-control my-input" id="answer" name="answer" placeholder="Song name">
+            <button type="submit" class="btn btn-primary my-button">Submit</button>
+        </form>
+        <!-- <p>asdasdasd</p> -->
+        <div class="message">
+            <p>Correct answer</p>
+        </div>
+    </div>
+</div>
