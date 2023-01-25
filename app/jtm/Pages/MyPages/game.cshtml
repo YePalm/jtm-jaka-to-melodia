@@ -13,8 +13,9 @@
             <p class="jtm-textnav">jtm - music!</p>
         </nav>
         <p class="gues-music-txt"><b>Guess the music!</b></p>
-        <audio controls class="audio">
-            <source src="/Mp3/Creep (feat.mp3" type="audio/mpeg">
+        <audio controls class="audio" id="audioPlayer">
+            <source src="/Mp3/Rosyjska myszka miki.mp3" type="audio/mpeg">
+            @*<source src="" id="audioSrc" type="audio/mpeg">*@
         </audio>
         <form action="POST">
             <input type="text" class="form-control my-input" id="answer" name="answer" placeholder="Song name">
@@ -26,3 +27,18 @@
         </div>
     </div>
 </div>
+
+@*@section Scripts {
+    <script type="text/javascript">
+        $(document).ready(function(){
+            //debugger;
+            var songIndex = 0;
+            //$("#audioSrc").attr("src", audioSrc);
+            //var songs = JSON.parse('@(Html.JsonString(Model))');
+            @Html.Raw(Json.Encode)
+            var audioSrc = songs[songIndex].SongPath;
+            $("#audioPlayer").attr("src", audioSrc);
+            $("#audioPlayer")[0].load();
+        });    
+    </script>
+}*@

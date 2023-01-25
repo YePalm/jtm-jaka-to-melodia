@@ -8,6 +8,11 @@ namespace jtm.Pages.MyPages
         public String userProfile = "";
         public void OnGet()
         {
+            if (!AuthHelper.IsLoggedIn(Request))
+            {
+                Response.Redirect("../index");
+            }
+
             var cookie = Request.Cookies["name"];
             userProfile = cookie;
         }

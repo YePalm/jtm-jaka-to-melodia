@@ -6,28 +6,28 @@
 
 <div class="background-img">
     <div class="content">
-        <a>Login Account</a>
+    <a>Login Account</a>
+        <br>
+        <br>
+        <form method="POST">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Login</label>
+                <input type="text" class="form-control my-input" id="login" placeholder="Enter Login" name="login" value="@Model.userInfo.login">
+            </div>
             <br>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control my-input" id="password" placeholder="Password" name="password" value="@Model.userInfo.password">
+            </div>
             <br>
-            <form method="POST">
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Login</label>
-                    <input type="text" class="form-control my-input" id="login" placeholder="Enter Login" name="login" value="@Model.userInfo.login">
-                </div>
-                <br>
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control my-input" id="password" placeholder="Password" name="password" value="@Model.userInfo.password">
-                </div>
-                <br>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-            @if (Model.errorMessage.Length > 0)
-            {
-                <div class="alert alert-warning alert-dismissible fade show error-msg" role="alert">
-                    <strong>@Model.errorMessage</strong>
-                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                </div>
-            }
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        @if (Model.errorMessage.Length > 0)
+        {
+            <div class="alert alert-warning alert-dismissible fade show error-msg" role="alert">
+                <strong>@Model.errorMessage</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        }
     </div>
 </div>

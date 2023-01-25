@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Wbb69E7DnIjO62Uzlzce7gXoLDrX6+My3EE0k4pu8h8=",
+  "Hash": "1HOlrXk1ZDsU7ZMOCD+yKotYZMIqloel57fTliYSx94=",
   "Source": "jtm",
   "BasePath": "_content/jtm",
   "Mode": "Default",
@@ -1190,12 +1190,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "E:\\Projects\\Jaka to melodia\\app\\jtm\\wwwroot\\Mp3\\Creep (feat.mp3",
+      "Identity": "E:\\Projects\\Jaka to melodia\\app\\jtm\\wwwroot\\Mp3\\Ciągle pada.mp3",
       "SourceId": "jtm",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Projects\\Jaka to melodia\\app\\jtm\\wwwroot\\",
       "BasePath": "_content/jtm",
-      "RelativePath": "Mp3/Creep (feat.mp3",
+      "RelativePath": "Mp3/Ciągle pada.mp3",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1204,15 +1204,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Mp3\\Creep (feat.mp3"
+      "OriginalItemSpec": "wwwroot\\Mp3\\Ciągle pada.mp3"
     },
     {
-      "Identity": "E:\\Projects\\Jaka to melodia\\app\\jtm\\wwwroot\\Mp3\\CZERWONE GITARY-CIĄGLE PADA ale to DRILL.mp3",
+      "Identity": "E:\\Projects\\Jaka to melodia\\app\\jtm\\wwwroot\\Mp3\\Creep.mp3",
       "SourceId": "jtm",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Projects\\Jaka to melodia\\app\\jtm\\wwwroot\\",
       "BasePath": "_content/jtm",
-      "RelativePath": "Mp3/CZERWONE GITARY-CIĄGLE PADA ale to DRILL.mp3",
+      "RelativePath": "Mp3/Creep.mp3",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1221,15 +1221,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Mp3\\CZERWONE GITARY-CIĄGLE PADA ale to DRILL.mp3"
+      "OriginalItemSpec": "wwwroot\\Mp3\\Creep.mp3"
     },
     {
-      "Identity": "E:\\Projects\\Jaka to melodia\\app\\jtm\\wwwroot\\Mp3\\Future - Mask Off (Official Instrumental).mp3",
+      "Identity": "E:\\Projects\\Jaka to melodia\\app\\jtm\\wwwroot\\Mp3\\Mask off.mp3",
       "SourceId": "jtm",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Projects\\Jaka to melodia\\app\\jtm\\wwwroot\\",
       "BasePath": "_content/jtm",
-      "RelativePath": "Mp3/Future - Mask Off (Official Instrumental).mp3",
+      "RelativePath": "Mp3/Mask off.mp3",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1238,15 +1238,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Mp3\\Future - Mask Off (Official Instrumental).mp3"
+      "OriginalItemSpec": "wwwroot\\Mp3\\Mask off.mp3"
     },
     {
-      "Identity": "E:\\Projects\\Jaka to melodia\\app\\jtm\\wwwroot\\Mp3\\MORGENSHTERN  Mickey Mouse - Домофон  Чича - Миккиштерн (But the beginning is extended).mp3",
+      "Identity": "E:\\Projects\\Jaka to melodia\\app\\jtm\\wwwroot\\Mp3\\Morskie opowieści.mp3",
       "SourceId": "jtm",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Projects\\Jaka to melodia\\app\\jtm\\wwwroot\\",
       "BasePath": "_content/jtm",
-      "RelativePath": "Mp3/MORGENSHTERN  Mickey Mouse - Домофон  Чича - Миккиштерн (But the beginning is extended).mp3",
+      "RelativePath": "Mp3/Morskie opowieści.mp3",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1255,15 +1255,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Mp3\\MORGENSHTERN  Mickey Mouse - Домофон  Чича - Миккиштерн (But the beginning is extended).mp3"
+      "OriginalItemSpec": "wwwroot\\Mp3\\Morskie opowieści.mp3"
     },
     {
-      "Identity": "E:\\Projects\\Jaka to melodia\\app\\jtm\\wwwroot\\Mp3\\MORSKIE OPOWIEŚCI ale to DRILL.mp3",
+      "Identity": "E:\\Projects\\Jaka to melodia\\app\\jtm\\wwwroot\\Mp3\\Rosyjska myszka miki.mp3",
       "SourceId": "jtm",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Projects\\Jaka to melodia\\app\\jtm\\wwwroot\\",
       "BasePath": "_content/jtm",
-      "RelativePath": "Mp3/MORSKIE OPOWIEŚCI ale to DRILL.mp3",
+      "RelativePath": "Mp3/Rosyjska myszka miki.mp3",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1272,15 +1272,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Mp3\\MORSKIE OPOWIEŚCI ale to DRILL.mp3"
+      "OriginalItemSpec": "wwwroot\\Mp3\\Rosyjska myszka miki.mp3"
     },
     {
-      "Identity": "E:\\Projects\\Jaka to melodia\\app\\jtm\\wwwroot\\Mp3\\W MOIM OGRÓDECKU X DRILL.mp3",
+      "Identity": "E:\\Projects\\Jaka to melodia\\app\\jtm\\wwwroot\\Mp3\\W moim ogródecku.mp3",
       "SourceId": "jtm",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Projects\\Jaka to melodia\\app\\jtm\\wwwroot\\",
       "BasePath": "_content/jtm",
-      "RelativePath": "Mp3/W MOIM OGRÓDECKU X DRILL.mp3",
+      "RelativePath": "Mp3/W moim ogródecku.mp3",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1289,7 +1289,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Mp3\\W MOIM OGRÓDECKU X DRILL.mp3"
+      "OriginalItemSpec": "wwwroot\\Mp3\\W moim ogródecku.mp3"
     }
   ]
 }
